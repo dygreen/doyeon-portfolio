@@ -9,7 +9,7 @@
 
 html {
   font-size: 16px;
-  font-weight: 100;
+  font-weight: 300;
 }
 
 html,
@@ -30,7 +30,7 @@ body {
 
 body.dark {
   background-color: #121212;
-  color: #fff;
+  color: #ced4da;
 }
 
 h1,h2,h3,h4,h5,h6{font-weight: 100;}
