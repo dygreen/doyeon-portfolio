@@ -2,7 +2,7 @@ import React, {useEffect, useState} from 'react';
 /** @jsxImportSource @emotion/react */
 import { css } from "@emotion/react";
 import { Icon } from '@iconify/react';
-import {TEXT_LIGHT_COLOR} from "styles/COLOR";
+import {PRIMARY_COLOR} from "styles/COLOR";
 
 const Header = () => {
   // 다크 모드
@@ -52,7 +52,7 @@ const headerStyle = css`
     svg {
       width: 30px;
       height: 30px;
-      color: ${TEXT_LIGHT_COLOR};
+      color: ${PRIMARY_COLOR};
     }
   }
 `;
