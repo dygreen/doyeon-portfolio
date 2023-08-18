@@ -10,7 +10,7 @@ const Header = () => {
 
   useEffect(() => {
     // prefers-color-scheme 값을 확인 해 시스템의 컬러모드 초기값으로 사용
-    window.matchMedia('(prefers-color-scheme: dark)').matches && setDarkMode(true)
+    window.matchMedia('(prefers-color-scheme: dark)').matches && setDarkMode(true);
   },[])
 
   useEffect(() => {
