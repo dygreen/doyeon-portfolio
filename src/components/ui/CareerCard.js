@@ -6,10 +6,10 @@ import {TEXT_LIGHT_COLOR, PRIMARY_COLOR} from "styles/COLOR";
 const CareerCard = ({ link, imageSrc, company, position, period }) => {
   return (
     <a 
-      href={link} 
-      target="_blank" 
-      title={company} 
-      rel="noreferrer" 
+      href={link}
+      target="_blank"
+      title={company}
+      rel="noreferrer"
       css={cardStyle}
     >
       <div>
@@ -31,6 +31,7 @@ const cardStyle = css`
   padding: 18px;
   border-radius: 4px;
   border: 1px solid ${TEXT_LIGHT_COLOR};
+  margin-bottom: 20px;
   transition: all .3s;
 
   div {
