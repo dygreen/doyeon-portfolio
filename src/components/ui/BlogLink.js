@@ -6,11 +6,26 @@ import {PRIMARY_COLOR} from "styles/COLOR";
 const BlogLink = ({ blog }) => {
   return (
     <div css={blogStyle}>
-      <p>관련된 블로그 글이에요</p>
+      {
+        blog.length === 1 ?
+        <p>관련된 블로그 글이에요</p> :
+        <p>관련된 글이에요</p>
+      }
       <ul>
-        <li>
-          <a href={blog.link} target="_blank" title={blog.title} rel="noreferrer">{blog.title}</a>
-        </li>
+        {
+          blog.map(data => (
+            <li>
+              <a
+                href={data.link}
+                target="_blank"
+                title={data.title}
+                rel="noreferrer"
+              >
+                {data.title}
+              </a>
+            </li>
+          ))
+        }
       </ul>
     </div>
   );
@@ -43,7 +58,13 @@ const blogStyle = css`
       font-weight: 100;
       font-style: italic;
       text-decoration: underline;
+      line-height: 1.5rem;
+
+      :hover {
+        font-weight: 400;
+      }
     }
+
   }
 `;
 

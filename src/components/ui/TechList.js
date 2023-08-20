@@ -30,7 +30,7 @@ const techLiStyle = css`
   font-weight: 400;
   margin-bottom: 6px;
   padding: 3px 8px;
-  background-color: rgba(63, 133, 17, 0.1);
+  background-color: rgba(60, 125, 16, 0.1);
   color: ${PRIMARY_COLOR};
   border-radius: 3px;
 `;

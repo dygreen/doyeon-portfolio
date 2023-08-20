@@ -7,19 +7,18 @@ import BlogLink from 'components/ui/BlogLink';
 import { css } from "@emotion/react";
 import {TEXT_LIGHT_COLOR, TEXT_DARK_COLOR, PRIMARY_COLOR} from "styles/COLOR";
 
-const ExDetail = ({ section }) => {
+const CareerDetail = () => {
   return (
     <ul>
-      {/* START : '경력' 프로젝트 영역 */}
       {
-        section === 'career' && workData.map(data => (
-          <li key={data.id} css={exDetailStyle}>
+        workData.map(data => (
+          <li key={data.id} css={careerDetailStyle}>
             {
               data.pageLink !== null ?
               <a
                 href={data.pageLink}
                 target='_blank'
-                title={`${data.title} 페이지 바로가기`}
+                title={`${data.id} 페이지 바로가기`}
                 rel="noreferrer"
               >
                 <h3>{data.title}</h3>
@@ -37,12 +36,11 @@ const ExDetail = ({ section }) => {
           </li>
         ))
       }
-      {/* END : '경력' 프로젝트 영역 */}
     </ul>
   );
 };
 
-const exDetailStyle = css`
+const careerDetailStyle = css`
   padding: 4px 16px;
   border-left: 1px solid ${TEXT_LIGHT_COLOR};
   margin-bottom: 48px;
@@ -75,4 +73,4 @@ const exDetailStyle = css`
   }
 `;
 
-export default ExDetail;
+export default CareerDetail;
