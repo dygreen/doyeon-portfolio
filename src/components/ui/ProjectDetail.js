@@ -5,7 +5,8 @@ import TechList from 'components/ui/TechList';
 import BlogLink from 'components/ui/BlogLink';
 /** @jsxImportSource @emotion/react */
 import { css } from "@emotion/react";
-import {TEXT_LIGHT_COLOR} from "styles/COLOR";
+import {TEXT_DARK_COLOR, TEXT_LIGHT_COLOR} from "styles/COLOR";
+import { Icon } from '@iconify/react';
 
 const ProjectDetail = () => {
   return (
@@ -23,6 +24,7 @@ const ProjectDetail = () => {
               rel='noreferrer'
             >
               <img src={data.titleImg} alt={`${data.id} 로고`} />
+              <Icon icon="radix-icons:open-in-new-window" />
             </a>
 
             <p>{data.period}</p>
@@ -48,15 +50,24 @@ const projectDetailStyle = (props) => css`
   margin-bottom: 48px;  
   
   > a {
-    display: inline-block;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
     width: fit-content;
     height: ${props === 'nocapnews' ? '30px' : '20px'};
     margin-bottom: 12px;
-  }
-
-  img {
-    width: inherit;
-    height: inherit;
+    
+    img {
+      width: inherit;
+      height: inherit;
+      margin-right: 6px;
+    }
+    
+    svg {
+      width: 18px;
+      height: 18px;
+      color: ${TEXT_DARK_COLOR};
+    }
   }
 
   > p {
