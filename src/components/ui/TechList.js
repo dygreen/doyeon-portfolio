@@ -19,16 +19,12 @@ const techUlStyle = css`
   display: flex;
   flex-wrap: wrap;
   margin-bottom: 16px;
+  gap: 6px;
 `;
 
 const techLiStyle = css`
-  :not(:last-child) {
-    margin-right: 6px;
-  }
-
   font-size: 0.9rem;
   font-weight: 400;
-  margin-bottom: 6px;
   padding: 3px 8px;
   background-color: rgba(60, 125, 16, 0.1);
   color: ${PRIMARY_COLOR};
