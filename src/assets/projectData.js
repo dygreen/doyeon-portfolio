@@ -11,7 +11,8 @@ export const projectData = [
       '카테고리 별 영화 무한 스와이프 기능 개발 (* SSR, Caching)',
       '영화 상세 정보 페이지 개발',
       '영화 리뷰 조회/등록/수정/삭제 기능 개발',
-      '카카오 로그인, 서비스 회원가입/로그인/로그아웃 기능 개발 (* token)'
+      '카카오 로그인, 서비스 회원가입/로그인/로그아웃 기능 개발 (* token)',
+      'AWS EC2를 이용한 배포'
     ],
     tech: ['React', 'Next.js', 'TypeScript', 'React Query', 'SASS'],
     article: [
