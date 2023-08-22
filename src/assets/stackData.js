@@ -40,4 +40,4 @@ export const stackData = [
       'Swagger, Confluence 등을 이용해 API 문서 이해'
     ]
   },
-]
+];

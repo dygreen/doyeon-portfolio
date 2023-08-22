@@ -5,6 +5,7 @@ import Career from "components/section/Career";
 import './App.css';
 import Project from 'components/section/Project';
 import Stack from "components/section/Stack";
+import Education from "components/section/Education";
 
 const App = () => {
   return (
@@ -13,6 +14,7 @@ const App = () => {
       <Career />
       <Project />
       <Stack />
+      <Education />
     </Layout>
   );
 };
