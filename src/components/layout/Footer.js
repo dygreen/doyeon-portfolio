@@ -15,7 +15,7 @@ const Footer = () => {
 
 const footerStyle = css`
   width: 100%;
-  padding: 72px 16px 32px;
+  margin-bottom: 24px;
 
   div {
     display: flex;
@@ -24,6 +24,7 @@ const footerStyle = css`
     max-width: 800px;
     min-height: 80px;
     margin: 0 auto;
+    padding: 0 15px;
   }
 
   p {
