@@ -4,6 +4,7 @@ import Intro from "components/section/Intro";
 import Career from "components/section/Career";
 import './App.css';
 import Project from 'components/section/Project';
+import Stack from "components/section/Stack";
 
 const App = () => {
   return (
@@ -11,6 +12,7 @@ const App = () => {
       <Intro />
       <Career />
       <Project />
+      <Stack />
     </Layout>
   );
 };
