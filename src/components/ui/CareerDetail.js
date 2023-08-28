@@ -43,7 +43,7 @@ const CareerDetail = () => {
 const careerDetailStyle = css`
   padding: 4px 16px;
   border-left: 1px solid ${TEXT_LIGHT_COLOR};
-  margin-bottom: 48px;
+  margin-bottom: 60px;
   
   h3 {
     font-weight: 500;

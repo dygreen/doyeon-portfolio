@@ -53,7 +53,7 @@ export const workData = [
       '프로젝트 관련 세미나 진행 (React 프로젝트 구조 및 라이프사이클 관련)',
       '[리팩토링] 편리한 유효성 검사를 위해 Formik(+ Yup) 세팅 및 Next.js로 전환'
     ],
-    tech: ['React', 'Next.js', 'TypeScript', 'SCSS'],
+    tech: ['React', 'Next.js', 'TypeScript', 'SASS'],
     blog: [
       {
         title: '신입 프론트엔드 개발자의 입사 3개월 회고',

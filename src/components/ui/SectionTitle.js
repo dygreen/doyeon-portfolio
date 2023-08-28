@@ -6,7 +6,7 @@ const SectionTitle = ({ children }) => {
     <h2 css={{
       fontSize: '2rem',
       fontWeight: '600',
-      margin: '32px 0'
+      padding: '32px 0'
     }}>
       { children }
     </h2>

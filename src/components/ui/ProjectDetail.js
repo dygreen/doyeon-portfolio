@@ -47,7 +47,7 @@ const ProjectDetail = () => {
 const projectDetailStyle = (props) => css`
   padding: 4px 16px;
   border-left: 1px solid ${TEXT_LIGHT_COLOR};
-  margin-bottom: 48px;  
+  margin-bottom: 60px;
   
   > a {
     display: flex;
