@@ -8,7 +8,7 @@ export const workData = [
     whatDidIDo: [
       '프로젝트 구조 잡기부터 build까지 작업',
       '검색 기능(URL query string) 개발',
-      '[리팩토링] 무한 스크롤 기능(React Query) 개발'
+      '[리팩토링] 더보기 기능(React Query) 개발'
     ],
     tech: ['React', 'Next.js', 'TypeScript', 'React Query', 'Redux Toolkit'],
     blog: [
@@ -51,7 +51,7 @@ export const workData = [
       '휴면계정 해제 기능 개발',
       '테스트 시나리오 참고해 배포 전 검수 진행',
       '프로젝트 관련 세미나 진행 (React 프로젝트 구조 및 라이프사이클 관련)',
-      '[리팩토링] 편리한 유효성 검사를 위해 Formik(+ Yup) 세팅 및 Next.js로 전환'
+      '[리팩토링] 편리한 사용성과 유지 보수를 위해 Next.js로 전환'
     ],
     tech: ['React', 'Next.js', 'TypeScript', 'SASS'],
     blog: [
