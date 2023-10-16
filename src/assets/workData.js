@@ -31,7 +31,7 @@ export const workData = [
       '회원가입 기능 개발',
       '비밀번호 찾기(+ SMS 인증) 및 변경 기능 개발'
     ],
-    tech: ['React', 'Next.js', 'TypeScript', 'Redux Toolkit', 'React bootstrap', 'SASS'],
+    tech: ['React', 'Next.js', 'TypeScript', 'Redux Toolkit', 'React bootstrap', 'SCSS'],
     blog: [
       {
         title: '신입 프론트엔드 개발자의 입사 6개월 회고',
@@ -53,7 +53,7 @@ export const workData = [
       '프로젝트 관련 세미나 진행 (React 프로젝트 구조 및 라이프사이클 관련)',
       '[리팩토링] 편리한 사용성과 유지 보수를 위해 Next.js로 전환'
     ],
-    tech: ['React', 'Next.js', 'TypeScript', 'SASS'],
+    tech: ['React', 'Next.js', 'TypeScript', 'SCSS'],
     blog: [
       {
         title: '신입 프론트엔드 개발자의 입사 3개월 회고',

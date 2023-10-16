@@ -15,7 +15,7 @@ export const projectData = [
       '반응형 화면(PC/Tablet/Mobile) 개발',
       'AWS EC2를 이용한 배포'
     ],
-    tech: ['React', 'Next.js', 'TypeScript', 'React Query', 'SASS'],
+    tech: ['React', 'Next.js', 'TypeScript', 'React Query', 'SCSS'],
     article: [
       {
         title: '자세한 프로젝트 실행과정 정리 (노션)',
